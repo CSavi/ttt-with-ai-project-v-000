@@ -10,7 +10,10 @@ module Players
       if !board.taken?(5)
         move = "5"
       #When going second, take the upper left cell if middle is taken.
-      elsif board.turn_count ==  1 
+      elsif board.turn_count ==  1
+        move = "1"
+      #
+      end  
     end
   end
 end
