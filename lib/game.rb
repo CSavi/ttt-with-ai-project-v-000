@@ -56,9 +56,7 @@ WIN_COMBINATIONS = [
   def winner
     if winning_combo = won?
       @winner = @board.cells[winning_combo.first]
-    end   
+    end
   end
 #>>>>>>> 7bafa383bdf5f15e5e3ffe5140aa0bb139b36067
-
-
-  end
+#end
