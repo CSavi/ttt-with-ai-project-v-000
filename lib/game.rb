@@ -24,12 +24,10 @@ WIN_COMBINATIONS = [
     @player_2 = player_2
   end
 
-#<<<<<<< HEAD
   def current
   end
-#=======
+
   def current_player
-#>>>>>>> 7bafa383bdf5f15e5e3ffe5140aa0bb139b36067
     @board.turn_count % 2 == 0 ? player_1 : player_2
   end
 
@@ -38,11 +36,11 @@ WIN_COMBINATIONS = [
   end
 
   def won?
-#<<<<<<< HEAD
+
   end
 
   def draw?
-#=======
+
     WIN_COMBINATIONS.detect do |winner|
       @board.cells[winner[0]] == @board.cells[winner[1]] &&
       @board.cells[winner[1]] == @board.cells[winner[2]] &&
@@ -59,5 +57,4 @@ WIN_COMBINATIONS = [
       @winner = @board.cells[winning_combo.first]
     end
   end
-#>>>>>>> 7bafa383bdf5f15e5e3ffe5140aa0bb139b36067
 end
