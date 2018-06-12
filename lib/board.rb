@@ -26,7 +26,7 @@ class Board
   end
 
   def full?
-#<<<<<<< HEAD
+
     @cells.none? {|cell| cell == " " || cell == nil}
   end
 
@@ -46,5 +46,4 @@ class Board
     @cells[position.to_i - 1] = player.token
 
     @cells.none? {|cell| cell == " " || cell == nil} #added brackets
-
-
+  end   
