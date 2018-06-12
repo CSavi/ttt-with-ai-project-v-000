@@ -47,7 +47,7 @@ WIN_COMBINATIONS = [
       @board.cells[winner[1]] == @board.cells[winner[2]] &&
      (@board.cells[winner[0]] == "X" || @board.cells[winner[0]] == "O")
 
-   end
+    end
   end
 
   def draw?
@@ -59,6 +59,6 @@ WIN_COMBINATIONS = [
       @winner = @board.cells[winning_combo.first]
    end
 #>>>>>>> 7bafa383bdf5f15e5e3ffe5140aa0bb139b36067
-  
+
 
   end
