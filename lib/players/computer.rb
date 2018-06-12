@@ -9,6 +9,7 @@ module Players
       #When going first, fill middle square. When going second, fill middle square if not taken.
       if !board.taken?(5)
         move = "5"
+      elsif   
     end
   end
 end
