@@ -6,10 +6,11 @@ module Players
 
     def move(board)
       move = " "
-      #When going first, fill middle square. When going second, fill middle square if not taken.
+      #When going first, fill middle cell. When going second, fill middle cell if not taken.
       if !board.taken?(5)
         move = "5"
-      elsif   
+      #When going second, take the upper left cell if middle is taken.
+      elsif board.turn_count ==  1 
     end
   end
 end
