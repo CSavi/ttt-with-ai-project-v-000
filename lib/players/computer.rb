@@ -6,7 +6,8 @@ module Players
 
     def move(board)
 
-      if 
+      #When going first, fill middle square. When going second, fill middle square if not taken.
+      if !taken?(board)
     end
   end
 end
