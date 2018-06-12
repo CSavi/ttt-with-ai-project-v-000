@@ -26,7 +26,6 @@ class Board
   end
 
   def full?
-
     @cells.none? {|cell| cell == " " || cell == nil}
   end
 
@@ -47,4 +46,4 @@ class Board
 
     @cells.none? {|cell| cell == " " || cell == nil} #added brackets
   end
-end     
+end
