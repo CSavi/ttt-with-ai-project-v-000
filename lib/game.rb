@@ -15,14 +15,13 @@ WIN_COMBINATIONS = [
 
 #<<<<<<< HEAD
   def initialize(player_1 = Players::Human.new("X"), player_2 = Players::Human.new("O"), board = Board.new)
-  end   
+  end
 #=======
   def initialize(player_1 = "X", player_2 = "O", board= Board.new)
 #>>>>>>> 7bafa383bdf5f15e5e3ffe5140aa0bb139b36067
     @board = board
     @player_1 = player_1
     @player_2 = player_2
-
   end
 
 #<<<<<<< HEAD
