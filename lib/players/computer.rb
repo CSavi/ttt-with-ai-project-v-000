@@ -5,9 +5,10 @@ module Players
   #Try corners
 
     def move(board)
-
+      move = " "
       #When going first, fill middle square. When going second, fill middle square if not taken.
-      if !taken?(board)
+      if !board.taken?(5)
+        move = "5"
     end
   end
 end
