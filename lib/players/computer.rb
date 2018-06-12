@@ -1,12 +1,12 @@
 module Players
   class Computer < Player
 
-
   #Try sides
-  #Try corners 
+  #Try corners
 
-    # def move(board)
-    #
-    # end
+    def move(board)
+
+      if 
+    end
   end
 end
