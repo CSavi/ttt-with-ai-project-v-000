@@ -46,4 +46,5 @@ class Board
     @cells[position.to_i - 1] = player.token
 
     @cells.none? {|cell| cell == " " || cell == nil} #added brackets
-  end   
+  end
+end     
