@@ -2,8 +2,7 @@ module Players
   class Computer < Player
 
     def move(board)
-      self = "X"
-      #however computer moves
+      move = nil 
     end
   end
 end
